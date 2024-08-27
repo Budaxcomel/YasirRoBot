@@ -10,9 +10,9 @@ load_dotenv()
 
 class Var(object):
     MULTI_CLIENT = False
-    API_ID = int(getenv("API_ID"))
-    API_HASH = str(getenv("API_HASH"))
-    BOT_TOKEN = str(getenv("BOT_TOKEN"))
+    API_ID = int(getenv("10115546"))
+    API_HASH = str(getenv("366347107f54aabc951cfa9d3c2fb2ce"))
+    BOT_TOKEN = str(getenv("7281537410:AAHsQ3joGTZvgbTFA7uj1oqaGy_4KM3fmsI"))
     name = str(getenv("name", "filetolinkbot"))
     SLEEP_THRESHOLD = int(getenv("SLEEP_THRESHOLD", "60"))
     WORKERS = int(getenv("WORKERS", "4"))
@@ -23,7 +23,7 @@ class Var(object):
     OWNER_ID = set(int(x) for x in os.environ.get("OWNER_ID", "").split())
     NO_PORT = bool(getenv("NO_PORT", False))
     APP_NAME = None
-    OWNER_USERNAME = str(getenv("OWNER_USERNAME"))
+    OWNER_USERNAME = str(getenv("ownerimmanvpn"))
     HASH_LENGTH = int(environ.get("HASH_LENGTH", 6))
     if not 5 < HASH_LENGTH < 64:
         sys.exit("Hash length should be greater than 5 and less than 64")
