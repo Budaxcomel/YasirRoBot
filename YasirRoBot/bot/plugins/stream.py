@@ -16,7 +16,7 @@ from YasirRoBot.utils.file_properties import get_name, get_hash, get_media_file_
 db = Database(Var.DATABASE_URL, Var.name)
 logger = logging.getLogger(__name__)
 
-MY_PASS = os.environ.get("MY_PASS", None)
+MY_PASS = os.environ.get("s8H4Ns-k3j&19hPf", None)
 pass_dict = {}
 pass_db = Database(Var.DATABASE_URL, "ag_passwords")
 
